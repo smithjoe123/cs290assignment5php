@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
@@ -13,13 +16,18 @@ and open the template in the editor.
   
         <?php
         
-            error_reporting(E_ALL); ini_set('display_errors','On');
+        
+            
+        
+            //error_reporting(E_ALL); ini_set('display_errors','On');
 
-            session_start();
             
-            echo "logged in is: $_SESSION[loggedin]";
             
-             var_dump($_SESSION[loggedin]);
+           // echo "test var is :>" . $_SESSION['test'] ."<";
+            
+            //echo "logged in is:" . $_SESSION['loggedin'];
+            
+             //var_dump($_SESSION[loggedin]);
 
             
             if(isset($_POST['username']))
@@ -60,7 +68,7 @@ and open the template in the editor.
 
             $times = $_SESSION['visited'];
 
-            echo "Hello $_POST[username] you have visited the page $times times before. Click <form action=\"login.php\" method=\"post\"><button type=\"submit\" name=\"logout\"><\\form> here to logout.<br>";
+            echo "Hello $_POST[username] you have visited the page $times times before.  <form action=\"login.php\" method=\"post\"><button type=\"submit\" name=\"logout\"> click here </button></form> to logout.<br>";
             
             echo "<a HREF=\"content2.php\">content2.php</a><br>";
 

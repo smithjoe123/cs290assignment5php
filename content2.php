@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
@@ -12,10 +15,11 @@ and open the template in the editor.
     <body>
   
         <?php
+       
         
-            error_reporting(E_ALL); ini_set('display_errors','On');
+            //error_reporting(E_ALL); ini_set('display_errors','On');
 
-            session_start();
+            
             
             if(isset($_POST['username']))
             {

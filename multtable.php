@@ -12,13 +12,13 @@ and open the template in the editor.
     <body>
         <?php
         
-            $_GET['min-multiplicand'] = 3;   
+           // $_GET['min-multiplicand'] = 3;   
             
-            $_GET['max-multiplicand'] = 9;
+            //$_GET['max-multiplicand'] = 9;
                     
-            $_GET['min-multiplier'] = 4;     
+           // $_GET['min-multiplier'] = 4;     
                     
-            $_GET['max-multiplier']= 9;       
+           // $_GET['max-multiplier']= 9;       
         
             if(!isset($_GET['min-multiplicand']))
             {

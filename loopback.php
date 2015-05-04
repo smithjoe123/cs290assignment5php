@@ -11,7 +11,7 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        error_reporting(E_ALL); ini_set('display_errors','On');
+        //error_reporting(E_ALL); ini_set('display_errors','On');
         
         //echo "get is " . $_SERVER['REQUEST_METHOD'];// sizeOf($_GET);
         

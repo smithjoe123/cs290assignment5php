@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
@@ -18,16 +21,20 @@ and open the template in the editor.
               
         </form>  
         <?php
+        session_start();
         
-            session_start();
+            
+        
+            
+            $_SESSION['test'] = 3;
             if(isset($_POST['logout']))
                  {
                 
                     $_SESSION['loggedin'] = false;
                     
-                    echo "logged in is: $_SESSION[loggedin] ";
+                   //echo "logged in is: $_SESSION[loggedin] ";
                     
-                    var_dump($_SESSION[loggedin]);
+                   // var_dump($_SESSION[loggedin]);
                  
                  }  
                  
