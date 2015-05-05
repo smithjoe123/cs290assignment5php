@@ -1,0 +1,15 @@
+Start: Mon, 27 Aprl 2015 9:00:00 -0800
+End: Mon, 27 Aprl 2015 20:12:00 -0800
+Tasks: Worked through course material
+
+Start: Thurs, 30 Aprl 2015 2:00:00 -0800
+End: Mon, 30 Aprl 2015 22:00:00 -0800
+Tasks: Worked on the course material and the homework assignment
+
+Start: Sat, 2 May 2015 10:15:00 -0800
+End: Sat, 2 May 2015 20:00:00 -0800
+Tasks: Worked on the homework assignment
+
+Start: Sun, 2 May 2015 13:30:15:00 -0800
+End: Sat, 2 May 2015 15:00:00 -0800
+Tasks: Worked on getting the github set up, uploading the site, posting it on canvas, finishing assignment
